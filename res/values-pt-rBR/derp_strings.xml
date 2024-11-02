@@ -10,13 +10,13 @@
 
     <!-- Categorias -->
     <string name="home_category_title">Tela inicial</string>
-    <string name="home_category_summary">Defina o painel do Google Now e mais</string>
+    <string name="home_category_summary">Personalize o painel do Google Now e mais</string>
     <string name="icons_category_title">Ícones</string>
-    <string name="icons_category_summary">Defina o tamanho dos ícones e mais</string>
+    <string name="icons_category_summary">Ajuste o tamanho dos ícones e outras opções</string>
     <string name="app_drawer_category_title">Gaveta de aplicativos</string>
-    <string name="app_drawer_category_summary">Personalize sua gaveta de aplicativos</string>
+    <string name="app_drawer_category_summary">Personalize a gaveta de aplicativos</string>
     <string name="recents_category_title">Recentes</string>
-    <string name="recents_category_summary">Renove a tela de visão geral</string>
+    <string name="recents_category_summary">Personalize a tela de visão geral</string>
     <string name="misc_category_title">Diversos</string>
     <string name="misc_category_summary">Outras opções</string>
     <string name="general_category_title">Geral</string>
@@ -25,25 +25,25 @@
 
     <!-- Opções do desenvolvedor -->
     <string name="dev_options_title">Opções do desenvolvedor</string>
-    <string name="dev_options_summary">Habilite algumas funcionalidades ocultas por sua conta e risco</string>
+    <string name="dev_options_summary">Habilite funcionalidades ocultas por sua conta e risco</string>
 
     <!-- Editar espaço de trabalho -->
     <string name="settings_lock_layout_title">Bloquear layout</string>
-    <string name="settings_lock_layout_summary_on">Ícones e widgets não podem ser adicionados, removidos e movidos na tela inicial</string>
-    <string name="settings_lock_layout_summary_off">Ícones e widgets podem ser adicionados, removidos e movidos na tela inicial</string>
+    <string name="settings_lock_layout_summary_on">Ícones e widgets não podem ser adicionados, removidos ou movidos na tela inicial</string>
+    <string name="settings_lock_layout_summary_off">Ícones e widgets podem ser adicionados, removidos ou movidos na tela inicial</string>
     <string name="settings_edit_widgets_error">Não é possível adicionar widgets à tela inicial</string>
 
     <!-- Ocultar rótulos -->
-    <string name="title_desktop_labels">Rótulos da área de trabalho</string>
+    <string name="title_desktop_labels">Rótulos na área de trabalho</string>
     <string name="summary_desktop_labels">Mostrar rótulos dos ícones na área de trabalho</string>
-    <string name="title_drawer_labels">Rótulos da gaveta</string>
+    <string name="title_drawer_labels">Rótulos na gaveta</string>
     <string name="summary_drawer_labels">Mostrar rótulos dos ícones na gaveta</string>
 
-    <!-- Título das configurações para mostrar o Google Now na tela -1 no launcher. [CHAR LIMIT=50] -->
-    <string name="title_show_google_app">Deslizar para acessar o aplicativo Google</string>
-    <!-- Mensagem de configurações explicando quando a tela -1 está disponível em um dispositivo LTR. [CHAR LIMIT=100] -->
+    <!-- Título das configurações para mostrar o Google Now na tela -1 no launcher. -->
+    <string name="title_show_google_app">Deslizar para acessar o Google</string>
+    <!-- Mensagem de configurações explicando quando a tela -1 está disponível em um dispositivo LTR. -->
     <string name="msg_minus_one_on_left">Quando você desliza para a direita da tela inicial principal</string>
-    <!-- Mensagem de configurações explicando quando a tela -1 está disponível em um dispositivo RTL. [CHAR LIMIT=100] -->
+    <!-- Mensagem de configurações explicando quando a tela -1 está disponível em um dispositivo RTL. -->
     <string name="msg_minus_one_on_right">Quando você desliza para a esquerda da tela inicial principal</string>
 
     <!-- Ícones temáticos de todos os aplicativos -->
@@ -52,10 +52,10 @@
 
     <!-- Aplicativos confiáveis -->
     <string name="trust_apps_manager_name">Aplicativos ocultos e protegidos</string>
-    <string name="trust_apps_auth_manager">Desbloqueie para gerenciar os aplicativos ocultos e protegidos</string>
+    <string name="trust_apps_auth_manager">Desbloqueie para gerenciar aplicativos ocultos e protegidos</string>
     <string name="trust_apps_auth_open_app">Autentique-se para abrir %1$s</string>
     <string name="trust_apps_loading">Carregando\u2026</string>
-    <string name="trust_apps_no_lock_error">Por favor, configure uma tela de bloqueio segura para restringir o acesso aos aplicativos</string>
+    <string name="trust_apps_no_lock_error">Configure uma tela de bloqueio segura para restringir o acesso aos aplicativos</string>
     <string name="trust_apps_help">Ajuda</string>
     <string name="trust_apps_info_hidden">Aplicativos ocultos e seus widgets estão ocultos na gaveta</string>
     <string name="trust_apps_info_protected">Aplicativos protegidos exigem autenticação para serem abertos a partir do launcher</string>
@@ -66,10 +66,10 @@
 
     <!-- Reiniciar o launcher -->
     <string name="pref_restart_title">Reiniciar</string>
-    <string name="pref_restart_summary">Reinicie o launcher manualmente para aplicar quaisquer configurações pendentes</string>
+    <string name="pref_restart_summary">Reinicie o launcher manualmente para aplicar configurações pendentes</string>
     <string name="restarting_launcher">Reiniciando o launcher...</string>
-    <string name="restarting_launcher_changes">Reiniciando o launcher para aplicar as mudanças...</string>
-    <string name="updating_launcher_components">Reiniciando o launcher para atualizar os componentes do launcher...</string>
+    <string name="restarting_launcher_changes">Reiniciando o launcher para aplicar mudanças...</string>
+    <string name="updating_launcher_components">Reiniciando o launcher para atualizar componentes...</string>
 
     <!-- Seekbar adequada -->
     <string name="proper_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
@@ -147,7 +147,7 @@
     <string name="drawer_search_summary">Barra de pesquisa no topo da gaveta de aplicativos</string>
 
     <!-- Parallax -->
-    <string name="short_parallax_title">Permitir parallax curta</string>
+    <string name="short_parallax_title">Permitir efeito Parallax</string>
     <string name="short_parallax_summary">Habilitar efeito de rolagem completo do papel de parede em números menores de páginas em vez de cortar o papel de parede</string>
     <string name="single_page_center_title">Página única centralizada</string>
     <string name="single_page_center_summary">Centralizar o papel de parede se estiver usando apenas uma página</string>
